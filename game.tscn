@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7m6l1lxf1c72"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_cn1hd"]
+[ext_resource type="Texture2D" uid="uid://bx57qjmt1l4mn" path="res://test.jpg" id="1_vq27s"]
+[ext_resource type="FontFile" uid="uid://dlirtg18ctf" path="res://monogram.ttf" id="2_weid6"]
+
+[node name="main_game" type="Node2D"]
+script = ExtResource("1_cn1hd")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_vq27s")
+expand_mode = 2
+
+[node name="Books" type="Label" parent="."]
+offset_left = 212.0
+offset_top = 403.0
+offset_right = 307.0
+offset_bottom = 447.0
+theme_override_fonts/font = ExtResource("2_weid6")
+theme_override_font_sizes/font_size = 50
+text = "Books
+"
+
+[node name="Window" type="Label" parent="."]
+offset_left = 1324.0
+offset_top = 390.0
+offset_right = 1419.0
+offset_bottom = 434.0
+theme_override_fonts/font = ExtResource("2_weid6")
+theme_override_font_sizes/font_size = 50
+text = "Window
+"
+
+[node name="Computer" type="Label" parent="."]
+offset_left = 1125.0
+offset_top = 828.0
+offset_right = 1220.0
+offset_bottom = 872.0
+theme_override_fonts/font = ExtResource("2_weid6")
+theme_override_font_sizes/font_size = 50
+text = "Computer
+"
