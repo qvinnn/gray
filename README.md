@@ -1,3 +1,3 @@
 **GRAY**
 
-Silly submission for the 1-bit game jam <3
+Sily game that was supposed to be a submission to a game-jam... ~~We missed the deadline~~
